@@ -2,11 +2,11 @@ import random
 
 class Dice:
 
-    def throwDice(self, nbDice):
-        for i in range(nbDice):
-            rdn = random.randint(0,6)
-            print(rdn)
+    def throwDice(self):
+            rdn = random.randint(1,6)
+            rdn2 = random.randint(1,6)
+            result = rdn + rdn2
+            return result
 
 D = Dice()
 
-D.throwDice(2)

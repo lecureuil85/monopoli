@@ -13,7 +13,14 @@ class Game():
         for i in range(nbJoueur):
             players.append(Player()) 
             players[i].namePlayer()
-            
-    
+     
+            test = input("Voulez vous lancer les dés (Y/N) : ")
+            if test == 'Y' :
+                for i in range(nbJoueur):
+                    players[i].throwDice()
+            else:
+                print("N")
+
+
 G = Game()
 G.main()
