@@ -1,2 +1,3 @@
-# Lançage de dés pour définir l'ordre des joueurs + gros nombre commence
-# si les dés font double, rejouer, si c'est trois fois double go prison
+class Dice:
+    def _init_(self):
+        self.face = 6
