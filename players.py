@@ -1,0 +1,1 @@
+# choix du nombre de joueurs + nom
