@@ -1,8 +1,9 @@
 class Player:
 
-    def _init_(self, name, money, card):
+    def __init__(self):
         self.name = ""
         self.money = 1500
+        self.dice = 2
         self.card = []
 
     def namePlayer(self):

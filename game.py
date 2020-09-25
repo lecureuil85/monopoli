@@ -1,4 +1,5 @@
 from player import *
+from dice import *
 
 class Game():
 
@@ -12,8 +13,7 @@ class Game():
         for i in range(nbJoueur):
             players.append(Player()) 
             players[i].namePlayer()
-
-            print(players[i].money)
-
+            
+    
 G = Game()
 G.main()
