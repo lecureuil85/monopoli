@@ -8,5 +8,5 @@ class Dice:
             result = rdn + rdn2
             return result
 
-D = Dice()
+
 
