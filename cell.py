@@ -1,4 +1,4 @@
-class Card:
+class Cell:
 
     cells = {
         1 : {

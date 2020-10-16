@@ -1,1 +1,6 @@
-# distribution de l'argent de départ : 2 x 500€, 4 x 100€, 1 x 50€, 1 x 20€, 2 x 10€, 1 x 5€, 5 x 1€
+class Bank:
+
+    def __init__(self):
+        self.house = 32
+        self.hotel = 12
+        self.money = 1000000

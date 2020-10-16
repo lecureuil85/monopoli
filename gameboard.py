@@ -1,9 +1,9 @@
-from card import Card
+from cell import Cell
 
 class Gameboard():
 
     def __init__(self):
-        c = Card()  
+        c = Cell()  
 
         for i in c.cells:
             c.cells[i]
