@@ -6,6 +6,7 @@ class Player:
         self.money = 1500
         self.card = []
         self.nbDice = 0
+        self.position = 1
 
     def namePlayer(self):
         print("Quel est votre nom de joueur ?")

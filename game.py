@@ -20,8 +20,10 @@ class Game():
             while test != 'Y' :
                 test
             print("Dés lancés : "+ str(d.throwDice()))
-            
+
 
 d = Dice()
 g = Game()
 g.main()
+
+

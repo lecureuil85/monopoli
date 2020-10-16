@@ -1,0 +1,16 @@
+CREER UNE VRAIE CLASS MAIN (game.py ne sera plus notre main)
+
+game.py -> Ordre des joueurs selon leurs resultats au jet des dés (créer un tableau et insérer joueurs dans l'ordre des tours à jouer, 
+le score le plus élevé étant le 1er).
+
+game.py -> Lancement de la partie, relancer les dés pour faire avancer les joueurs (chacun leur tour) : function random pour lancer de dés + calculer 
+l'avancement du joueur sur le plateau (donc parcourir le tableau cell), selon sa place initiale (donc variable qui sauvegarde la place 
+du joueur à chaque tour).
+
+game.py -> Evènement selon l'Alain Cazes où se trouve le joueur (distribution de carte et gestion de l'évènement et de ses conséquences sur la partie 
+du joueur en question)...
+
+game.py -> Penser à rajouter une fonction permettant d'acheter des maisons et hotels sur les lieux le permettant.
+
+(game.py -> Penser à faire payer un loyer lorsque les joueurs ne possedant pas le bien passe sur une propriété privée)
+
